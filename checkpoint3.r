@@ -8,7 +8,7 @@ sentiment[1,1]
 calculate_score(sentiment[1,1])
 colnames(sentiment)
 dim(sentiment)[2]
-mat<-matrix(list(), nrow=1989, ncol=25)
+mat<-matrix(nrow=1989, ncol=25)
 sentimentResult=mat
 for(i in 1:dim(sentiment)[1]){
   for(j in 1:dim(sentiment)[2]){
